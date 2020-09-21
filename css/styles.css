@@ -3,7 +3,65 @@ article,aside,details,figcaption,figure,footer,header,hgroup,section,summary{dis
  .clearfix:after {visibility: hidden; display: block; font-size: 0; content:''; clear: both; height: 0; } 
 
  * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; font-family:"Work Sans", sans-serif;}
-/* nav */
+
+
+ /* preHeader */
+.preHeader{
+    background: #54BCAA;
+    color:#fff;
+    padding: 20px 0px;
+}
+.preHeader p{
+    margin: 0px;
+    padding: 2px;
+    font-size: 14px;
+}
+
+.preHeader p b{
+    font-size: 16px;
+}
+
+.preHeader .wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.col2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.download a{
+    color: #fff !important;
+}
+
+.download{
+    width: 180px;
+}
+
+.registerBtn{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: #124559;
+border-radius: 3px;
+}
+.registerBtn a{
+    font-size: 20px;
+    flex-grow: 1;
+    color:#fff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 15px;
+
+}
+
+
+
+ /* nav */
 header{
     background-color:#124559;
     height: 80px;
@@ -453,7 +511,7 @@ h3{
      top: 250px;
     }
 }
-@media(max-width:490px){
+@media(max-width:560px){
     .roboBody,.roboArm{display: none;}
     .robo img{
         display: block;
@@ -464,12 +522,12 @@ h3{
         top: 140px;
     }
 }
-@media(max-width:414px){
+/* @media(max-width:414px){
     .robo img{
         top: 154px;
     }
-}
-@media(max-width:350px){
+} */
+@media(max-width:500px){
     .robo{
         display: none;
     }
