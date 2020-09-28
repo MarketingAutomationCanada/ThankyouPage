@@ -324,17 +324,17 @@ h3{
         z-index: 999;
         left: 0;
         right: 0;
-        position: absolute;
-        flex-direction: column !important;
+        /* position: absolute; */
+        flex-direction: row !important;
         height: auto;
-        background: #124559;
+        /* background: #124559; */
         display: block;
-        border-bottom: 1px solid #124559;
+        /* border-bottom: 1px solid #124559; */
     }
 
-    nav ul li{
+    /* nav ul li{
         width: 100%;
-    }
+    } */
 
     input[type="checkbox"]:checked ~ nav ul{
         display: flex !important;
